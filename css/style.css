@@ -41,8 +41,9 @@ li:hover {
 
 .main_Loading {
   width: 100%;
+  height: 100%;
   position: relative;
-  top: 200px;
+  top: 300px;
 }
 
 .loading_1 {
@@ -52,7 +53,7 @@ li:hover {
   border-radius: 20px;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 10%;
 }
 
 .P_Load {
@@ -74,7 +75,7 @@ li:hover {
   border-radius: 20px;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 10%;
   animation: loading 5s infinite;
   animation-timing-function: linear;
   z-index: 1;
@@ -96,7 +97,9 @@ li:hover {
 .div_Square {
   width: 200px;
   height: 200px;
-  margin: 100px auto;
+  position: absolute;
+  top: 300px;
+  left: 250px;
   border: 1px solid black;
   box-shadow: 15px 10px red;
   transition-property: all;
@@ -115,7 +118,9 @@ li:hover {
   height: 300px;
   border-radius: 50%;
   background-color: yellow;
-  margin: 100px auto;
+  position: absolute;
+  top: 200px;
+  left: 200px;
   animation: circle 4s infinite;
 }
 
@@ -134,7 +139,9 @@ li:hover {
 
 .P_paragraph {
   width: 700px;
-  margin: 100px auto;
+  position: absolute;
+  top: 200px;
+  left: 100px;
   font-size: 20px;
   animation: paragraph 7s;
 }
@@ -142,10 +149,12 @@ li:hover {
 @keyframes paragraph {
   from {
     font-size: 20px;
+    width: 700px;
   }
 
   to {
     font-size: 8px;
+    width: 400px;
   }
 }
 
@@ -158,7 +167,7 @@ li:hover {
   background-image: url(../images/image1.jpg);
   position: absolute;
   top: 150px;
-  left: 30%;
+  left: 150px;
   animation: image 3s infinite;
 }
 
@@ -174,7 +183,7 @@ li:hover {
 /*                                              Snail */
 
 .field_pic {
-  width: 100%;
+  width: 1366px;
   height: 100px;
   position: absolute;
   bottom: 0;
@@ -211,7 +220,7 @@ li:hover {
 
 /*                                              Tennis */
 .tennis_field {
-  width: 100%;
+  width: 1366px;
   height: 100px;
   position: absolute;
   bottom: 0;
@@ -223,7 +232,7 @@ li:hover {
   background-color: gray;
   position: absolute;
   bottom: 100px;
-  left: 50%;
+  left: 673px;
 }
 
 .ball {
